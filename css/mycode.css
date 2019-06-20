@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+/*img
+{
+  float:left;
+}*/
+
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #666;
+  padding: 20px;
+}
+apad{
+  padding: 5px;
+
+}
+.one
+{
+  text-align: left;
+}
+alignA
+{
+  float: right;
+  font-size: 20px;
+}
+
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background:blue;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: rgb(216, 124, 112);
+  padding: 10px;
+}
+
+/*2nd article */
+article1 {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: goldenrod;
+  padding: 10px;
+}
+
+/*3rd article*/
+article2 {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: goldenrod;
+    padding: 10px;
+  }
+
+
+/* Style the footer */
+.footer {
+  background-color: yellowgreen;
+  padding: 10px;
+  text-align: center;
+  
+}
+a{
+    text-align-last: left;
+}
+
